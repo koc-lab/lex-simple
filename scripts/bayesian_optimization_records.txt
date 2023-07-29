@@ -1,0 +1,218 @@
+Iteration 0: 
+	{'target': -10.027862631083135, 'params': {'bert_weight': 1.5, 'cos_weight': 0.5, 'freq_weight': 0.2, 'len_weight': 3.0, 'lm_weight': 3.0}}
+Iteration 1: 
+	{'target': -10.395064859120865, 'params': {'bert_weight': 1.251066014107722, 'cos_weight': 2.1609734803264744, 'freq_weight': 0.00022874963468977327, 'len_weight': 1.8139954357910386, 'lm_weight': 0.8805353449026783}}
+Iteration 2: 
+	{'target': -9.932829428430491, 'params': {'bert_weight': 0.2770157843063934, 'cos_weight': 0.5587806341330127, 'freq_weight': 0.6911214540860955, 'len_weight': 2.3806048453840196, 'lm_weight': 3.2329004040201417}}
+Iteration 3: 
+	{'target': -10.004109929834524, 'params': {'bert_weight': 1.2575835432098845, 'cos_weight': 2.0556585011902784, 'freq_weight': 0.40890449946303487, 'len_weight': 5.268704618345673, 'lm_weight': 0.16432555918755698}}
+Iteration 4: 
+	{'target': -9.908303269260154, 'params': {'bert_weight': 2.011402530535207, 'cos_weight': 1.2519144071013808, 'freq_weight': 1.1173796568915033, 'len_weight': 0.8423216315714026, 'lm_weight': 1.1886089345092727}}
+Iteration 5: 
+	{'target': -10.044508244639253, 'params': {'bert_weight': 2.40223370602661, 'cos_weight': 2.9047847271581926, 'freq_weight': 0.6268483563184857, 'len_weight': 4.1539356940158845, 'lm_weight': 5.258334913776229}}
+Iteration 6: 
+	{'target': -10.168097578204321, 'params': {'bert_weight': 2.683819990511542, 'cos_weight': 0.25513263410933373, 'freq_weight': 0.07810956646576472, 'len_weight': 1.0189825173874134, 'lm_weight': 5.268855020576479}}
+Iteration 7: 
+	{'target': -9.913294651031782, 'params': {'bert_weight': 0.2950405014991503, 'cos_weight': 1.2633228750151564, 'freq_weight': 1.9157790603010039, 'len_weight': 3.1989917098381024, 'lm_weight': 4.15126268370284}}
+Iteration 8: 
+	{'target': -9.921692558803139, 'params': {'bert_weight': 0.9465468930181888, 'cos_weight': 2.059502783044751, 'freq_weight': 1.6692513437947458, 'len_weight': 0.10972966406515083, 'lm_weight': 4.500865889669805}}
+Iteration 9: 
+	{'target': -9.915975120910954, 'params': {'bert_weight': 0.7536095500481599, 'cos_weight': 1.967282303710098, 'freq_weight': 1.9207942964400362, 'len_weight': 0.02132856278655626, 'lm_weight': 4.340166266365837}}
+Iteration 10: 
+	{'target': -9.915735400801085, 'params': {'bert_weight': 0.3983654357667858, 'cos_weight': 1.3936536681422467, 'freq_weight': 1.7190410035141694, 'len_weight': 1.6512221368471183, 'lm_weight': 3.997485425175497}}
+Iteration 11: 
+	{'target': -9.903324977255227, 'params': {'bert_weight': 1.72276639409735, 'cos_weight': 0.9702163235068727, 'freq_weight': 1.9804845056806137, 'len_weight': 0.4106376080006928, 'lm_weight': 2.3354518383326153}}
+Iteration 12: 
+	{'target': -9.892128462412433, 'params': {'bert_weight': 2.8015801615193716, 'cos_weight': 0.5098302936988617, 'freq_weight': 1.9212022908506272, 'len_weight': 0.04805806557331012, 'lm_weight': 0.9284483258061987}}
+Iteration 13: 
+	{'target': -9.890703896033589, 'params': {'bert_weight': 0.9804467381598417, 'cos_weight': 0.0, 'freq_weight': 2.0, 'len_weight': 0.11181229442373403, 'lm_weight': 0.7686009490306498}}
+Iteration 14: 
+	{'target': -9.894069134570602, 'params': {'bert_weight': 2.3075261006345102, 'cos_weight': 0.0, 'freq_weight': 2.0, 'len_weight': 1.6950875535837295, 'lm_weight': 1.2334730761015957}}
+Iteration 15: 
+	{'target': -9.924790333722886, 'params': {'bert_weight': 0.0, 'cos_weight': 3.0, 'freq_weight': 2.0, 'len_weight': 1.5087475938904256, 'lm_weight': 6.0}}
+Iteration 16: 
+	{'target': -9.90395546216941, 'params': {'bert_weight': 0.0, 'cos_weight': 0.0, 'freq_weight': 2.0, 'len_weight': 1.0174911808065226, 'lm_weight': 2.52463342862068}}
+Iteration 17: 
+	{'target': -9.910214650536357, 'params': {'bert_weight': 0.0, 'cos_weight': 0.0, 'freq_weight': 2.0, 'len_weight': 5.832907705768518, 'lm_weight': 3.8267944854650127}}
+Iteration 18: 
+	{'target': -9.922201094987088, 'params': {'bert_weight': 0.0, 'cos_weight': 0.0, 'freq_weight': 2.0, 'len_weight': 4.558956978321215, 'lm_weight': 6.0}}
+Iteration 19: 
+	{'target': -10.21423933933149, 'params': {'bert_weight': 0.0, 'cos_weight': 0.0, 'freq_weight': 0.0, 'len_weight': 6.0, 'lm_weight': 5.388538270076004}}
+Iteration 20: 
+	{'target': -9.902493447767398, 'params': {'bert_weight': 0.0, 'cos_weight': 0.0, 'freq_weight': 2.0, 'len_weight': 4.074370580070471, 'lm_weight': 2.379769356949043}}
+Iteration 21: 
+	{'target': -9.92169516567709, 'params': {'bert_weight': 0.0, 'cos_weight': 0.0, 'freq_weight': 2.0, 'len_weight': 2.0789329141024693, 'lm_weight': 5.929543327696043}}
+Iteration 22: 
+	{'target': -9.898438808214769, 'params': {'bert_weight': 1.7439913314652777, 'cos_weight': 0.0, 'freq_weight': 2.0, 'len_weight': 6.0, 'lm_weight': 1.9651329307110044}}
+Iteration 23: 
+	{'target': -9.887451431978818, 'params': {'bert_weight': 0.0, 'cos_weight': 0.0, 'freq_weight': 2.0, 'len_weight': 6.0, 'lm_weight': 0.5158175034079262}}
+Iteration 24: 
+	{'target': -9.90085654683626, 'params': {'bert_weight': 0.0, 'cos_weight': 1.771176222937378, 'freq_weight': 2.0, 'len_weight': 6.0, 'lm_weight': 2.203061517417788}}
+Iteration 25: 
+	{'target': -9.874880217836242, 'params': {'bert_weight': 3.0, 'cos_weight': 0.0, 'freq_weight': 2.0, 'len_weight': 6.0, 'lm_weight': 0.0}}
+Iteration 26: 
+	{'target': -9.894848955116222, 'params': {'bert_weight': 3.0, 'cos_weight': 2.149653339662562, 'freq_weight': 2.0, 'len_weight': 6.0, 'lm_weight': 1.3955425598473785}}
+Iteration 27: 
+	{'target': -9.87512317518927, 'params': {'bert_weight': 3.0, 'cos_weight': 0.0, 'freq_weight': 2.0, 'len_weight': 3.90444018627412, 'lm_weight': 0.0}}
+Iteration 28: 
+	{'target': -9.901997625974886, 'params': {'bert_weight': 3.0, 'cos_weight': 0.0, 'freq_weight': 2.0, 'len_weight': 4.291139690410967, 'lm_weight': 2.100882089054487}}
+Iteration 29: 
+	{'target': -9.905562793589544, 'params': {'bert_weight': 3.0, 'cos_weight': 3.0, 'freq_weight': 2.0, 'len_weight': 0.0, 'lm_weight': 1.735787526213581}}
+Iteration 30: 
+	{'target': -9.874444875174053, 'params': {'bert_weight': 1.0825273464530543, 'cos_weight': 0.0, 'freq_weight': 2.0, 'len_weight': 4.380654091893986, 'lm_weight': 0.0}}
+Iteration 31: 
+	{'target': -10.3268555833592, 'params': {'bert_weight': 3.0, 'cos_weight': 0.0, 'freq_weight': 0.0, 'len_weight': 0.0, 'lm_weight': 0.0}}
+Iteration 32: 
+	{'target': -10.37001794825577, 'params': {'bert_weight': 0.0, 'cos_weight': 3.0, 'freq_weight': 0.0, 'len_weight': 0.0, 'lm_weight': 6.0}}
+Iteration 33: 
+	{'target': -9.924278665938164, 'params': {'bert_weight': 0.0, 'cos_weight': 3.0, 'freq_weight': 2.0, 'len_weight': 4.197507177046872, 'lm_weight': 6.0}}
+Iteration 34: 
+	{'target': -9.921426517765768, 'params': {'bert_weight': 3.0, 'cos_weight': 3.0, 'freq_weight': 2.0, 'len_weight': 0.0, 'lm_weight': 4.282224874647371}}
+Iteration 35: 
+	{'target': -9.915789195491415, 'params': {'bert_weight': 3.0, 'cos_weight': 0.0, 'freq_weight': 2.0, 'len_weight': 6.0, 'lm_weight': 4.51885932702624}}
+Iteration 36: 
+	{'target': -9.915055656355092, 'params': {'bert_weight': 3.0, 'cos_weight': 3.0, 'freq_weight': 2.0, 'len_weight': 6.0, 'lm_weight': 3.6351769242133933}}
+Iteration 37: 
+	{'target': -10.109597911037715, 'params': {'bert_weight': 3.0, 'cos_weight': 0.0, 'freq_weight': 0.0, 'len_weight': 6.0, 'lm_weight': 0.8758457771273744}}
+Iteration 38: 
+	{'target': -9.913063419452751, 'params': {'bert_weight': 0.0, 'cos_weight': 3.0, 'freq_weight': 2.0, 'len_weight': 6.0, 'lm_weight': 4.17641574925265}}
+Iteration 39: 
+	{'target': -9.89893348777781, 'params': {'bert_weight': 3.0, 'cos_weight': 1.717057274740453, 'freq_weight': 2.0, 'len_weight': 1.7181282285270716, 'lm_weight': 1.7894190408496404}}
+Iteration 40: 
+	{'target': -9.880286365064622, 'params': {'bert_weight': 3.0, 'cos_weight': 3.0, 'freq_weight': 2.0, 'len_weight': 4.6181841731824536, 'lm_weight': 0.0}}
+Iteration 41: 
+	{'target': -9.882378498221748, 'params': {'bert_weight': 0.04380705360478543, 'cos_weight': 2.8512839706728292, 'freq_weight': 1.9929968881575038, 'len_weight': 5.179783244018571, 'lm_weight': 0.19281361063983526}}
+Iteration 42: 
+	{'target': -9.904789447832686, 'params': {'bert_weight': 1.4817771204100267, 'cos_weight': 3.0, 'freq_weight': 2.0, 'len_weight': 4.740602945613949, 'lm_weight': 2.182313784460902}}
+Iteration 43: 
+	{'target': -9.875627676643436, 'params': {'bert_weight': 0.0, 'cos_weight': 0.0, 'freq_weight': 2.0, 'len_weight': 2.2413502090554145, 'lm_weight': 0.0}}
+Iteration 44: 
+	{'target': -9.87290846088183, 'params': {'bert_weight': 1.5536060962005884, 'cos_weight': 1.6995859663982644, 'freq_weight': 2.0, 'len_weight': 6.0, 'lm_weight': 0.0}}
+Iteration 45: 
+	{'target': -9.9230993120212, 'params': {'bert_weight': 3.0, 'cos_weight': 0.0, 'freq_weight': 2.0, 'len_weight': 4.008456786782007, 'lm_weight': 6.0}}
+Iteration 46: 
+	{'target': -9.874238439564612, 'params': {'bert_weight': 0.0, 'cos_weight': 1.8427245221391577, 'freq_weight': 2.0, 'len_weight': 0.0, 'lm_weight': 0.0}}
+Iteration 47: 
+	{'target': -9.882233271162399, 'params': {'bert_weight': 1.9134419707896089, 'cos_weight': 2.1167333610254127, 'freq_weight': 1.9638167564978646, 'len_weight': 0.14759810517671146, 'lm_weight': 0.3097635254574742}}
+Iteration 48: 
+	{'target': -9.928412961489562, 'params': {'bert_weight': 3.0, 'cos_weight': 3.0, 'freq_weight': 2.0, 'len_weight': 1.9130355948244586, 'lm_weight': 6.0}}
+Iteration 49: 
+	{'target': -9.904445294596828, 'params': {'bert_weight': 0.0, 'cos_weight': 3.0, 'freq_weight': 2.0, 'len_weight': 0.0, 'lm_weight': 2.006645316308787}}
+Iteration 50: 
+	{'target': -9.91202778540449, 'params': {'bert_weight': 1.7138096993784935, 'cos_weight': 0.0, 'freq_weight': 2.0, 'len_weight': 4.0223535088858675, 'lm_weight': 4.031348785553246}}
+Iteration 51: 
+	{'target': -9.910931875436658, 'params': {'bert_weight': 0.0, 'cos_weight': 3.0, 'freq_weight': 2.0, 'len_weight': 2.648381812762799, 'lm_weight': 3.547858977153175}}
+Iteration 52: 
+	{'target': -9.915468831637664, 'params': {'bert_weight': 1.7800308502837956, 'cos_weight': 3.0, 'freq_weight': 2.0, 'len_weight': 1.6817066372146123, 'lm_weight': 4.078466209665954}}
+Iteration 53: 
+	{'target': -9.921325614651874, 'params': {'bert_weight': 2.8711861214579995, 'cos_weight': 1.8688050421125149, 'freq_weight': 1.957153712152099, 'len_weight': 5.957498096604051, 'lm_weight': 5.854047679929432}}
+Iteration 54: 
+	{'target': -9.88134993614706, 'params': {'bert_weight': 3.0, 'cos_weight': 1.4170947285330933, 'freq_weight': 2.0, 'len_weight': 4.608380644705143, 'lm_weight': 0.35879429682637143}}
+Iteration 55: 
+	{'target': -9.88999430380499, 'params': {'bert_weight': 1.3622701713154064, 'cos_weight': 1.1241560590286657, 'freq_weight': 2.0, 'len_weight': 1.0929414062791176, 'lm_weight': 0.8466025090832896}}
+Iteration 56: 
+	{'target': -9.905346389909477, 'params': {'bert_weight': 1.62818561055588, 'cos_weight': 1.5012839307830195, 'freq_weight': 2.0, 'len_weight': 6.0, 'lm_weight': 3.574782248282526}}
+Iteration 57: 
+	{'target': -9.874505417242835, 'params': {'bert_weight': 0.0, 'cos_weight': 1.2241177074051632, 'freq_weight': 2.0, 'len_weight': 4.347363971956495, 'lm_weight': 0.0}}
+Iteration 58: 
+	{'target': -9.880284621041003, 'params': {'bert_weight': 3.0, 'cos_weight': 3.0, 'freq_weight': 2.0, 'len_weight': 6.0, 'lm_weight': 0.0}}
+Iteration 59: 
+	{'target': -9.877778054662576, 'params': {'bert_weight': 0.0, 'cos_weight': 0.0, 'freq_weight': 2.0, 'len_weight': 0.0, 'lm_weight': 0.0}}
+Iteration 60: 
+	{'target': -9.894975844895168, 'params': {'bert_weight': 1.2584457326130356, 'cos_weight': 3.0, 'freq_weight': 2.0, 'len_weight': 6.0, 'lm_weight': 1.1286228585989155}}
+Iteration 61: 
+	{'target': -9.9073664051911, 'params': {'bert_weight': 3.0, 'cos_weight': 1.843093334145596, 'freq_weight': 2.0, 'len_weight': 4.020765368009581, 'lm_weight': 3.435991017306913}}
+Iteration 62: 
+	{'target': -9.921078139525184, 'params': {'bert_weight': 1.2412988237364877, 'cos_weight': 1.6903526375213371, 'freq_weight': 2.0, 'len_weight': 2.786417963082052, 'lm_weight': 6.0}}
+Iteration 63: 
+	{'target': -9.895330001423787, 'params': {'bert_weight': 2.2475017214082578, 'cos_weight': 1.6263133234574771, 'freq_weight': 2.0, 'len_weight': 0.0, 'lm_weight': 1.372942058355222}}
+Iteration 64: 
+	{'target': -9.90793509575932, 'params': {'bert_weight': 3.0, 'cos_weight': 0.0, 'freq_weight': 2.0, 'len_weight': 2.032424714430467, 'lm_weight': 3.265858614157692}}
+Iteration 65: 
+	{'target': -9.875081056247287, 'params': {'bert_weight': 3.0, 'cos_weight': 1.5508402118070423, 'freq_weight': 2.0, 'len_weight': 1.4255571103558053, 'lm_weight': 0.0}}
+Iteration 66: 
+	{'target': -9.943492997875186, 'params': {'bert_weight': 0.0, 'cos_weight': 0.0, 'freq_weight': 0.4694391686029762, 'len_weight': 0.0, 'lm_weight': 2.7285991394154583}}
+Iteration 67: 
+	{'target': -9.917609226484593, 'params': {'bert_weight': 0.0, 'cos_weight': 0.0, 'freq_weight': 2.0, 'len_weight': 0.0, 'lm_weight': 4.891605634602852}}
+Iteration 68: 
+	{'target': -9.88157859564571, 'params': {'bert_weight': 3.0, 'cos_weight': 3.0, 'freq_weight': 2.0, 'len_weight': 0.0, 'lm_weight': 0.0}}
+Iteration 69: 
+	{'target': -9.909781617310074, 'params': {'bert_weight': 3.0, 'cos_weight': 0.0, 'freq_weight': 2.0, 'len_weight': 0.0, 'lm_weight': 3.3022790731810265}}
+Iteration 70: 
+	{'target': -9.922409183518175, 'params': {'bert_weight': 3.0, 'cos_weight': 1.4961814541605414, 'freq_weight': 2.0, 'len_weight': 0.0, 'lm_weight': 6.0}}
+Iteration 71: 
+	{'target': -9.90574871817488, 'params': {'bert_weight': 0.0, 'cos_weight': 3.0, 'freq_weight': 2.0, 'len_weight': 4.623644479085573, 'lm_weight': 2.8452697041821398}}
+Iteration 72: 
+	{'target': -9.874372983378205, 'params': {'bert_weight': 1.4840982562090161, 'cos_weight': 0.0, 'freq_weight': 2.0, 'len_weight': 6.0, 'lm_weight': 0.0}}
+Iteration 73: 
+	{'target': -9.893199760261428, 'params': {'bert_weight': 1.1794770840435858, 'cos_weight': 1.1572240501642568, 'freq_weight': 2.0, 'len_weight': 4.842085547652739, 'lm_weight': 1.294390700996794}}
+Iteration 74: 
+	{'target': -9.897141343443762, 'params': {'bert_weight': 0.0, 'cos_weight': 1.0686181702912763, 'freq_weight': 2.0, 'len_weight': 0.0, 'lm_weight': 1.3674462734280213}}
+Iteration 75: 
+	{'target': -9.910063961233849, 'params': {'bert_weight': 0.9873871261236499, 'cos_weight': 0.0, 'freq_weight': 2.0, 'len_weight': 2.1227796272150306, 'lm_weight': 3.653199101476117}}
+Iteration 76: 
+	{'target': -9.860393406845764, 'params': {'bert_weight': 0.0, 'cos_weight': 0.0, 'freq_weight': 0.0, 'len_weight': 6.0, 'lm_weight': 0.0}}
+Iteration 77: 
+	{'target': -9.88081938910015, 'params': {'bert_weight': 3.0, 'cos_weight': 3.0, 'freq_weight': 2.0, 'len_weight': 2.2608810807527466, 'lm_weight': 0.0}}
+Iteration 78: 
+	{'target': -10.38833048823414, 'params': {'bert_weight': 0.0, 'cos_weight': 3.0, 'freq_weight': 0.0, 'len_weight': 6.0, 'lm_weight': 2.0320937405639192}}
+Iteration 79: 
+	{'target': -9.924095621287197, 'params': {'bert_weight': 1.1206465334725817, 'cos_weight': 3.0, 'freq_weight': 2.0, 'len_weight': 6.0, 'lm_weight': 6.0}}
+Iteration 80: 
+	{'target': -9.877984993196314, 'params': {'bert_weight': 1.341311741769688, 'cos_weight': 3.0, 'freq_weight': 2.0, 'len_weight': 4.365220410702878, 'lm_weight': 0.0}}
+Iteration 81: 
+	{'target': -9.905092982489275, 'params': {'bert_weight': 3.0, 'cos_weight': 3.0, 'freq_weight': 2.0, 'len_weight': 3.7625234300817687, 'lm_weight': 1.732929685650455}}
+Iteration 82: 
+	{'target': -9.916054243462527, 'params': {'bert_weight': 1.241570717833294, 'cos_weight': 3.0, 'freq_weight': 2.0, 'len_weight': 4.3808269525648456, 'lm_weight': 4.308135603728538}}
+Iteration 83: 
+	{'target': -9.873188937678636, 'params': {'bert_weight': 0.0, 'cos_weight': 1.5250456593102812, 'freq_weight': 2.0, 'len_weight': 6.0, 'lm_weight': 0.0}}
+Iteration 84: 
+	{'target': -9.87873127747179, 'params': {'bert_weight': 0.0, 'cos_weight': 3.0, 'freq_weight': 2.0, 'len_weight': 0.0, 'lm_weight': 0.0}}
+Iteration 85: 
+	{'target': -9.873755675478565, 'params': {'bert_weight': 0.0, 'cos_weight': 0.0, 'freq_weight': 0.623793416382589, 'len_weight': 4.619400159316024, 'lm_weight': 0.0}}
+Iteration 86: 
+	{'target': -9.922408998145922, 'params': {'bert_weight': 1.9389430221389679, 'cos_weight': 0.0, 'freq_weight': 2.0, 'len_weight': 6.0, 'lm_weight': 6.0}}
+Iteration 87: 
+	{'target': -9.92795145149837, 'params': {'bert_weight': 3.0, 'cos_weight': 3.0, 'freq_weight': 2.0, 'len_weight': 4.352462974195727, 'lm_weight': 6.0}}
+Iteration 88: 
+	{'target': -9.877565588292025, 'params': {'bert_weight': 0.0, 'cos_weight': 3.0, 'freq_weight': 2.0, 'len_weight': 2.9460649127412286, 'lm_weight': 0.0}}
+Iteration 89: 
+	{'target': -9.874588512852592, 'params': {'bert_weight': 2.0678809793282986, 'cos_weight': 1.2402442501486994, 'freq_weight': 2.0, 'len_weight': 3.195778030136296, 'lm_weight': 0.0}}
+Iteration 90: 
+	{'target': -9.923167193545893, 'params': {'bert_weight': 1.560196444524727, 'cos_weight': 0.0, 'freq_weight': 2.0, 'len_weight': 0.0, 'lm_weight': 6.0}}
+Iteration 91: 
+	{'target': -9.908297781476389, 'params': {'bert_weight': 0.0, 'cos_weight': 1.5134496485769753, 'freq_weight': 2.0, 'len_weight': 4.957077463832069, 'lm_weight': 3.7547348999621115}}
+Iteration 92: 
+	{'target': -9.900751648430262, 'params': {'bert_weight': 0.0, 'cos_weight': 0.0, 'freq_weight': 2.0, 'len_weight': 6.0, 'lm_weight': 2.2178083540693168}}
+Iteration 93: 
+	{'target': -9.896030859166174, 'params': {'bert_weight': 0.0, 'cos_weight': 0.0, 'freq_weight': 2.0, 'len_weight': 2.5877324171028007, 'lm_weight': 1.4905092735119145}}
+Iteration 94: 
+	{'target': -9.915414152335998, 'params': {'bert_weight': 2.154540630672178, 'cos_weight': 1.2512020782589042, 'freq_weight': 2.0, 'len_weight': 0.0, 'lm_weight': 4.438088772828677}}
+Iteration 95: 
+	{'target': -9.878786340264423, 'params': {'bert_weight': 1.7662802610895165, 'cos_weight': 3.0, 'freq_weight': 2.0, 'len_weight': 1.1410853046843816, 'lm_weight': 0.0}}
+Iteration 96: 
+	{'target': -9.873881786357495, 'params': {'bert_weight': 0.0, 'cos_weight': 0.0, 'freq_weight': 0.9794042705590603, 'len_weight': 6.0, 'lm_weight': 0.0}}
+Iteration 97: 
+	{'target': -9.875504803345006, 'params': {'bert_weight': 0.0, 'cos_weight': 0.0, 'freq_weight': 2.0, 'len_weight': 3.7126732304516876, 'lm_weight': 0.0}}
+Iteration 98: 
+	{'target': -9.8987332021422, 'params': {'bert_weight': 0.0, 'cos_weight': 1.9151948741802198, 'freq_weight': 2.0, 'len_weight': 3.445375396329184, 'lm_weight': 1.822122639722514}}
+Iteration 99: 
+	{'target': -9.874771856961075, 'params': {'bert_weight': 1.5697910262690968, 'cos_weight': 0.0, 'freq_weight': 2.0, 'len_weight': 2.7194250527834316, 'lm_weight': 0.0}}
+Iteration 100: 
+	{'target': -9.874712990257166, 'params': {'bert_weight': 0.0, 'cos_weight': 1.68579576268465, 'freq_weight': 2.0, 'len_weight': 1.8252647247797777, 'lm_weight': 0.0}}
+Iteration 101: 
+	{'target': -9.925651898121764, 'params': {'bert_weight': 2.1234932338492545, 'cos_weight': 3.0, 'freq_weight': 2.0, 'len_weight': 0.0, 'lm_weight': 6.0}}
+Iteration 102: 
+	{'target': -9.87786436914207, 'params': {'bert_weight': 1.2693367683052679, 'cos_weight': 3.0, 'freq_weight': 2.0, 'len_weight': 6.0, 'lm_weight': 0.0}}
+Iteration 103: 
+	{'target': -9.9038747451171, 'params': {'bert_weight': 1.7170396067772853, 'cos_weight': 0.743458412737628, 'freq_weight': 2.0, 'len_weight': 3.1519787358095037, 'lm_weight': 2.3848097464816345}}
+Iteration 104: 
+	{'target': -9.901469092082325, 'params': {'bert_weight': 3.0, 'cos_weight': 0.692632738264966, 'freq_weight': 2.0, 'len_weight': 0.7912443349177598, 'lm_weight': 1.8176359242119746}}
+Iteration 105: 
+	{'target': -9.891657354331056, 'params': {'bert_weight': 3.0, 'cos_weight': 0.8560612200422651, 'freq_weight': 2.0, 'len_weight': 2.9262664904450735, 'lm_weight': 0.8513640290819298}}
+Iteration 106: 
+	{'target': -9.873005212191472, 'params': {'bert_weight': 1.540057845051461, 'cos_weight': 1.713623031287979, 'freq_weight': 2.0, 'len_weight': 4.729036599637243, 'lm_weight': 0.0}}
+Iteration 107: 
+	{'target': -9.92104969555018, 'params': {'bert_weight': 1.3229042003558182, 'cos_weight': 1.8211445861914635, 'freq_weight': 2.0, 'len_weight': 1.0357034228885433, 'lm_weight': 5.504949288947916}}
+Iteration 108: 
+	{'target': -9.896517230738015, 'params': {'bert_weight': 3.0, 'cos_weight': 3.0, 'freq_weight': 2.0, 'len_weight': 1.11512553833704, 'lm_weight': 0.7556821790994254}}
