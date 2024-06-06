@@ -32,21 +32,8 @@ warnings.filterwarnings("ignore")
 import spacy
 nlp_ner = spacy.load("en_core_web_sm")
 
-#os.environ["CUDA_LAUNCH_BLOCKING"] = "1"
-
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
-
-
-"""
-bert_base_tokenizer = AutoTokenizer.from_pretrained("bert-base-uncased")
-bert_base_model = BertForMaskedLM.from_pretrained("bert-base-uncased")
-bert_base_model.to(device)
-
-bert_large_tokenizer = AutoTokenizer.from_pretrained("bert-large-uncased")
-bert_large_model = BertForMaskedLM.from_pretrained("bert-large-uncased")
-bert_large_model.to(device)
-"""
 legal_base_tokenizer = AutoTokenizer.from_pretrained("nlpaueb/legal-bert-base-uncased")
 legal_base_model = BertForMaskedLM.from_pretrained("nlpaueb/legal-bert-base-uncased")
 legal_base_model.to(device)
@@ -79,26 +66,6 @@ def feature_extractor(word,original_word,sentence):
       print(r"LM loss could not be computed for the target word: **",original_word,"** and the suggestion: **",word,"**")
       lm_perp = 0
   return [cos_sim,lm_perp,zipf,length]
-  
-# fc_model = FC()
-
-# fc_model = fc_model.to(device)
-
-# fc_model.load_state_dict(torch.load('./mlp/BenchLS/5th-model.pt'))
-
-# def neural_ranker(word1,wordlist,original_word,original_sentence):
-#   #total_scores = {}
-#   #for word1 in wordlist:
-#   feature1 = feature_extractor(word1,original_word,original_sentence)
-#   score = 0
-#   for word2 in wordlist:
-#     if word1 != word2:
-#       feature2 = feature_extractor(word2,original_word,original_sentence)
-#       inputs = torch.tensor(feature1 + feature2, device = device)
-#       score += fc_model(inputs)
-#   #total_scores[word1] = score
-#   #return total_scores
-#   return -score
   
 df_subtlex = pd.read_excel(r"./SUBTLEX_frequency.xlsx")
 subtlex_words = []
@@ -650,8 +617,6 @@ def calculatelmloss(original_text,target_word,suggestion,model,tokenizer):
     
 print("check: helpers successful")
 
-
-
 def simplify_text(tokenizer,model,original_text,complex_words,weight_bert,weight_cos,weight_lm,weight_freq,weight_len):
         num_suggestions = 60
         _,new_selection,replaced_words,masked_text,selection_new = selection_maker(tokenizer,model,original_text,complex_words)
@@ -667,8 +632,6 @@ def simplify_text(tokenizer,model,original_text,complex_words,weight_bert,weight
         new_text = sentence_builder(original_text,sugg_word_dict)
         
         return [replaced_words, ranked_dict, sugg_word_dict, new_text]
-
-
 
 def simplify_case(input_path,output_path,tokenizer,model,complex_words,weight_bert,weight_cos,weight_lm,weight_freq,weight_len):
         legal_doc=[]
@@ -710,43 +673,9 @@ trial_count = 3
 
 if __name__ == '__main__':
 
-        # Bounded region of parameter space
+        target_path = "test_sentences.txt"
+        simple_path = "uslt_outputs.txt"
 
-        #target_path = r"./legal_comparison/500_sents_3.txt"
-        #simple_path = f"./legal_comparison/pp_500_MLP.txt"
-        #simple_path = r"./legal_comparison/new_ablations/500_sents_3_no_len.txt"
-        #'bert_weight': 3.0, 'cos_weight': 1.4170947285330933, 'freq_weight': 2.0, 'len_weight': 4.608380644705143, 'lm_weight': 0.35879429682637143
-
-        target_path = "/auto/data2/mcemri/new_sentences/test_sentences.txt"
-        simple_path = "/auto/data2/mcemri/new_sentences/uslt_outputs.txt"
-
-        bert_weight = 0
-        #bert_weight = 2.0
-        #bert_weight = 2.0
-        
-        #cos_weight = 1.417
-        cos_weight = 1.6
-
-        #lm_weight = 0.36
-        #lm_weight = 1.36
-        #lm_weight = 1.42
-        #lm_weight = 1.52
-        lm_weight = 0.15
-
-        #freq_weight = 2.0
-        
-        freq_weight = 0.05
-        #freq_weight = 0
-        #len_weight = 4.61
-        #len_weight = 1.61
-        len_weight = 4.61
-
-        #golden:
-        # bert_weight = 3.4
-        # cos_weight = 1.6
-        # lm_weight = 0.15å
-        # freq_weight = 0.05
-        # len_weight = 4.61
         bert_weight = 3.00
         lm_weight = 0.36
         cos_weight = 1.42
