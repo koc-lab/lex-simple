@@ -9,3 +9,10 @@ In order to run the algorithm proposed in the paper, run the following command. 
 ```
 python3 scripts/n_evaluate_asl.py
 ```
+
+## Evaluation
+
+After gathering the text outputs, run 
+```
+python3 eval.py
+```
