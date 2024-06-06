@@ -7,7 +7,7 @@ We have gathered a new dataset for the goal of legal text simplification. To tha
 ## Code
 In order to run the algorithm proposed in the paper, run the following command. Python 3.6 or above is required.
 ```
-python3 scripts/n_evaluate_asl.py
+python3 scripts/run_uslt.py
 ```
 
 ## Evaluation
