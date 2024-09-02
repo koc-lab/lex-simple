@@ -7,7 +7,7 @@ We have gathered a new dataset for the goal of legal text simplification. To tha
 ## Code
 In order to run the algorithm proposed in the paper, run the following command. Python 3.6 is required. In particular, run:
 ```
-conda install uslt python=3.6.9
+conda create -n uslt python=3.6.9
 git clone https://github.com/koc-lab/lex-simple.git
 pip install -r requirements.txt
 python scripts/run_uslt.py
