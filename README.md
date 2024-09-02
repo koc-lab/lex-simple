@@ -5,9 +5,12 @@ Repo for the paper Unsupervised Simplification of Legal Texts https://arxiv.org/
 We have gathered a new dataset for the goal of legal text simplification. To that aim, we have selected 1000 random legal sentences from the CaseLaw Access project of Harward Law School. Then, by collaborating with the faculty and the students of Bilkent Law School, we produced 3 different simplified reference files for these 1000 sentences. We hope that this dataset can serve as a benchmark for future legal text simplification studies.
 
 ## Code
-In order to run the algorithm proposed in the paper, run the following command. Python 3.6 or above is required.
+In order to run the algorithm proposed in the paper, run the following command. Python 3.6 is required. In particular, run:
 ```
-python3 scripts/run_uslt.py
+conda install uslt python=3.6.9
+git clone https://github.com/koc-lab/lex-simple.git
+pip install -r requirements.txt
+python scripts/run_uslt.py
 ```
 
 After running the code above, you will generate a .txt file with lexical simplifications. In order to do structural simplification on top of lexical simplification, follow the steps in https://github.com/Lambda-3/DiscourseSimplification/tree/master. In particular, run
@@ -21,6 +24,8 @@ Then, run
 ```
 mvn clean compile exec:java
 python3 finer.py
+cd ..
+python decode_sentence_splitting.py
 ```
 Now you generated the final txt file! 
 
