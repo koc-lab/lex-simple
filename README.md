@@ -31,18 +31,13 @@ Now you generated the final txt file!
 
 ## Evaluation
 
+You need to install easse, for which please follow the guides in https://github.com/feralvam/easse
+You may also need to install the readability packages with 
+```
+pip install readability
+```
+
 After gathering the text outputs, run 
 ```
 python3 eval.py
 ```
-
-you may need to install the readability and easse packages. For readability, run
-```
-pip install readability
-```
-or 
-```
-pip install https://github.com/andreasvc/readability/tarball/master
-```
-
-For easse, follow the guides in https://github.com/feralvam/easse
