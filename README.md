@@ -12,7 +12,8 @@ git clone https://github.com/koc-lab/lex-simple.git
 pip install -r requirements.txt
 python -m spacy download en_core_web_lg
 python -m spacy download en
-python scripts/run_uslt.py
+cd scripts
+python run_uslt.py
 ```
 
 After running the code above, you will generate a .txt file with lexical simplifications. In order to do structural simplification on top of lexical simplification, follow the steps in https://github.com/Lambda-3/DiscourseSimplification/tree/master. In particular, run
