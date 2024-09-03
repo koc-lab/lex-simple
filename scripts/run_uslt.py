@@ -1,6 +1,3 @@
-#from utils.helpers import *
-#from utils.ls_functions import *
-
 from numpy import dot
 from numpy.linalg import norm
 import numpy as np
@@ -31,6 +28,9 @@ warnings.filterwarnings("ignore")
 
 import spacy
 nlp_ner = spacy.load("en_core_web_sm")
+
+import nltk
+nltk.download('punkt_tab')
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
@@ -67,21 +67,21 @@ def feature_extractor(word,original_word,sentence):
       lm_perp = 0
   return [cos_sim,lm_perp,zipf,length]
   
-df_subtlex = pd.read_excel(r"./SUBTLEX_frequency.xlsx")
+df_subtlex = pd.read_excel(r"SUBTLEX_frequency.xlsx")
 subtlex_words = []
 for i in range(df_subtlex.shape[0]):
         subtlex_words.append(df_subtlex.loc[i,'Word'])
 df_subtlex.set_index('Word',inplace=True)
 #print("Subtlex Words: \n", df_subtlex)
 
-df_law = pd.read_excel(r"./zpf_2.xlsx")
+df_law = pd.read_excel(r"zpf_2.xlsx")
 law_words = []
 for i in range(df_law.shape[0]):
         law_words.append(df_law.loc[i,'Word'])
 df_law.set_index('Word',inplace=True)
 #print("Law Words: \n", df_law)
 
-eng_file = open(r"./english_words.txt", 'r')
+eng_file = open(r"english_words.txt", 'r')
 Lines = eng_file.readlines()
 
 count = 0
@@ -91,7 +91,7 @@ for line in Lines:
         line = re.sub('\n', '', line)
         count += 1
         eng_words.append(line)
-longer_eng_file = open(r"./longer_english_words.txt", 'r')
+longer_eng_file = open(r"longer_english_words.txt", 'r')
 Lines2 = longer_eng_file.readlines()   
 
 longer_eng_words = []
@@ -108,7 +108,7 @@ for i in eng_words:
     if len(i) <= 2:
         eng_words.remove(i)
 
-f = open(r"./edited_complex_words_combined.txt",'r',encoding='ascii',errors="ignore")
+f = open(r"edited_complex_words_combined.txt",'r',encoding='ascii',errors="ignore")
 complex_words_string = f.read()
 complex_words_string = re.sub(', ', ',', complex_words_string)
 complex_words_string = complex_words_string.lower()
@@ -320,12 +320,12 @@ def suggestion_generator(tokenizer,model,inputs,outputs,selection,masked_word_id
                   outputs.logits[0][new_score][masked_word_ids[new_score]] = 0
                 except:
                   k = 0
-                  print(new_score)
-                  print(selection)
-                  print(another_selection)
-                  print(outputs.logits[0].shape)
-                  print(inputs['input_ids'][0])
-                  print(tokenizer.decode(inputs['input_ids'][0]))
+                #   print(new_score)
+                #   print(selection)
+                #   print(another_selection)
+                #   print(outputs.logits[0].shape)
+                #   print(inputs['input_ids'][0])
+                #   print(tokenizer.decode(inputs['input_ids'][0]))
                   
                   sz = outputs.logits[0].shape
                   new_score = sz[0]-1
@@ -482,7 +482,7 @@ def substition_ranker(suggestion_dictionary,complex_words,weight_bert,weight_cos
 
         return suggested_word,ranked_dictionary
 
-print("check: substitution ranking successful \n")
+print("Check2: substitution ranking successful \n")
 
 def Nmaxelements(list1, N):
                 final_list = []
@@ -615,7 +615,7 @@ def calculatelmloss(original_text,target_word,suggestion,model,tokenizer):
                         total_loss += float(lmloss)
         return total_loss / 4
     
-print("check: helpers successful")
+print("Check3: helpers successful")
 
 def simplify_text(tokenizer,model,original_text,complex_words,weight_bert,weight_cos,weight_lm,weight_freq,weight_len):
         num_suggestions = 60
@@ -623,11 +623,11 @@ def simplify_text(tokenizer,model,original_text,complex_words,weight_bert,weight
         inp, output, masked_words_ids = create_masked_lm(tokenizer,model,original_text,new_selection,masked_text)
         dict_sug = suggestion_generator(tokenizer,model,inp,output,new_selection,masked_words_ids,replaced_words,num_suggestions,selection_new)
 
-        print(dict_sug)
+        # print(dict_sug)
 
         sugg_word_dict,ranked_dict = substition_ranker(dict_sug,complex_words,weight_bert,weight_cos,weight_lm,original_text,model,tokenizer,weight_freq,weight_len)
 
-        print(ranked_dict)
+        # print(ranked_dict)
 
         new_text = sentence_builder(original_text,sugg_word_dict)
         
@@ -673,8 +673,8 @@ trial_count = 3
 
 if __name__ == '__main__':
 
-        target_path = "test_sentences.txt"
-        simple_path = "uslt_outputs.txt"
+        target_path = "../supreme_org_val.txt"
+        simple_path = "uslt_noss_supreme_val.txt"
 
         bert_weight = 3.00
         lm_weight = 0.36
