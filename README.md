@@ -10,7 +10,7 @@ In order to run the algorithm proposed in the paper, run the following command. 
 conda create -n uslt python=3.10
 git clone https://github.com/koc-lab/lex-simple.git
 pip install -r requirements.txt
-python -m spacy download en_core_web_lg
+python -m spacy download en_core_web_sm
 python -m spacy download en
 cd scripts
 python run_uslt.py
