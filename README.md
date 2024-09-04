@@ -8,7 +8,9 @@ We have gathered a new dataset for the goal of legal text simplification. To tha
 In order to run the algorithm proposed in the paper, run the following command. Python 3.6 or above is required. In particular, run:
 ```
 conda create -n uslt python=3.10
+conda activate uslt
 git clone https://github.com/koc-lab/lex-simple.git
+cd lex-simple
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm
 python -m spacy download en
@@ -26,7 +28,6 @@ Then, generate an empty file called 'input.txt' inside this directory and copy a
 Then, run
 ```
 mvn clean compile exec:java
-python3 finer.py
 cd ..
 python decode_sentence_splitting.py
 ```
@@ -42,5 +43,5 @@ pip install readability
 
 After gathering the text outputs, run 
 ```
-python3 eval.py
+python eval.py
 ```
