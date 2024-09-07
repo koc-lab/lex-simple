@@ -20,6 +20,7 @@ python run_uslt.py
 
 After running the code above, you will generate a .txt file with lexical simplifications. In order to do structural simplification on top of lexical simplification, follow the steps in https://github.com/Lambda-3/DiscourseSimplification/tree/master. In particular, run
 ```
+cd .. #make sure you are in the main directory
 git clone https://github.com/koc-lab/SentenceSplitting.git
 cd DiscourseSimplification
 mvn clean install -DskipTests
@@ -37,10 +38,6 @@ Now you generated the final txt file!
 ## Evaluation
 
 You need to install easse, for which please follow the guides in https://github.com/feralvam/easse
-You may also need to install the readability packages with 
-```
-pip install readability
-```
 
 After gathering the text outputs, run 
 ```
