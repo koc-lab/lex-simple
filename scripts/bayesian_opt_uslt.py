@@ -688,8 +688,8 @@ def black_box_function(bert_weight, lm_weight, cos_weight, freq_weight, len_weig
      
     global trial_count
     trial_count += 1
-    target_path = r"./data/500_sents_4.txt"
-    simple_path = f"./data/500_sents_simplified_{trial_count}.txt"
+    target_path = r"../data/caselaw_500.txt"
+    simple_path = f"./data/caselaw_500_simplified_{trial_count}.txt"
     """
     simple_lines = simplify_case_nowrite(target_path,simple_path, legal_base_tokenizer, legal_base_model, complex_words, bert_weight, cos_weight, lm_weight ,freq_weight,len_weight)
     simple_file = open(simple_path,"w")
