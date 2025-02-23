@@ -675,13 +675,6 @@ if __name__ == '__main__':
 
         target_path = "../data/caselaw_500.txt"
         
-
-        # bert_weight = 3.00
-        # lm_weight = 0.36
-        # cos_weight = 1.42
-        # freq_weight = 2.00
-        # len_weight = 4.61
-
         initial_bert_weight = 2.00
         initial_cos_weight = 0.20
         initial_lm_weight = 1.00
